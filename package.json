@@ -1,0 +1,10 @@
+{
+  "name": "genesys-firstup-incident-comms-bridge",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Incident communications bridge for Genesys service pressure and FirstUp workforce broadcast readiness.",
+  "scripts": {
+    "test": "node scripts/validate.js"
+  },
+  "license": "AGPL-3.0-only"
+}

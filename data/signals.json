@@ -1,0 +1,30 @@
+{
+  "name": "Genesys FirstUp Incident Comms Bridge",
+  "slug": "genesys-firstup-incident-comms-bridge",
+  "platforms": [
+    "Genesys",
+    "FirstUp"
+  ],
+  "topics": [
+    "genesys",
+    "firstup",
+    "incident-comms",
+    "contact-center",
+    "workforce-comms",
+    "kinetic-gain"
+  ],
+  "signals": [
+    {
+      "lane": "exposure",
+      "score": 72
+    },
+    {
+      "lane": "savings",
+      "score": 61
+    },
+    {
+      "lane": "investment",
+      "score": 66
+    }
+  ]
+}
