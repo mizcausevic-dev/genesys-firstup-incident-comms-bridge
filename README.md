@@ -4,20 +4,39 @@ Incident communications bridge for Genesys service pressure and FirstUp workforc
 
 ![ci](https://github.com/mizcausevic-dev/genesys-firstup-incident-comms-bridge/actions/workflows/ci.yml/badge.svg)
 
-## Why this exists
+## What this ships
 
-This is a Kinetic Gain signal surface for Genesys, FirstUp. It keeps evidence tied to board-ready decisions: exposure, savings, investment, and story.
+This repo is a static Kinetic Gain evidence surface, not a placeholder page. It packages Genesys, FirstUp signals into a board-readable operating view:
 
-## Local verification
-
-~~~bash
-npm test
-~~~
+- Exposure: where workflow, platform, or communications risk can become visible.
+- Savings: where duplicate effort, drift, or manual coordination can be reduced.
+- Investment: which next action deserves funding, ownership, or escalation.
+- Story: how the evidence should be explained to executives or investors.
 
 ## Live surface
 
-https://mizcausevic-dev.github.io/genesys-firstup-incident-comms-bridge/
+- Product page: https://mizcausevic-dev.github.io/genesys-firstup-incident-comms-bridge/
+- Repository: https://github.com/mizcausevic-dev/genesys-firstup-incident-comms-bridge
+- Portfolio atlas: https://portfolio.kineticgain.com/
 
-## Stack signal
+## Evidence lanes
 
-Primary language signal: JavaScript
+- exposure
+- savings
+- investment
+
+## Related surfaces
+
+- [Genesys FirstUp Agent Readiness Broadcast](https://mizcausevic-dev.github.io/genesys-firstup-agent-readiness-broadcast/)
+- [Genesys FirstUp Service Outage Briefing Room](https://mizcausevic-dev.github.io/genesys-firstup-service-outage-briefing-room/)
+- [CyberArk FirstUp Access Risk Comms Ledger](https://mizcausevic-dev.github.io/cyberark-firstup-access-risk-comms-ledger/)
+- [CyberArk FirstUp Privileged Change Briefing](https://mizcausevic-dev.github.io/cyberark-firstup-privileged-change-briefing/)
+- [FirstUp Employee Incident Narrative Pack](https://mizcausevic-dev.github.io/firstup-employee-incident-narrative-pack/)
+
+## Local verification
+
+```bash
+npm test
+```
+
+The validation script checks the data payload, generated page, interactive evidence table, related links, and footer links.
